@@ -16,12 +16,3 @@ Thus, while `init.el` sets up a few initial GUI settings, bootstraps `use-packag
 [**Config.org**](https://github.com/PBorocz/.emacs.d/blob/trunk/config.org)
 
 **NOTE**:  I am NOT an elisp programmer (to me, Emacs is a tool, ie. like my bandsaw I only do the minimum maintenance to it to allow me to build what I *really* want using it!). Net net, don't take my configuration as gospel; YMMV.
-
-:fontawesome-solid-wine-glass:
-
-| Method   | Description                           |
-|----------|---------------------------------------|
-| `GET`    | :material-check:     Fetch resource   |
-| `PUT`    | :material-check-all: Update resource  |
-| `DELETE` | :material-close:     Delete resource  |
-| smile    | :fontawesome-regular-face-laugh-wink: |

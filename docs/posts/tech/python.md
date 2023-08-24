@@ -5,7 +5,9 @@ tags:
 
 # Python Environment Standards and Setup Notes
 
-Python project setup falls into that nebulous/grey area in that you don't do it often enough for it to become habit but you don't want to forget your own best practice for how to do it the next time you need to! These are my central notes of knowledge and best practice on how to do this.
+Python project setup falls into that nebulous/gray area in that: (a) you don't do it often enough for it to become habit and (b) you don't want to forget your own best practice for how to do it the next time you need to!
+
+These are my notes for the "hows" and "whats" of my python environment for reference.
 
 NOTE: This file represents <u>my</u> practice for *MY* projects; I make no guarantees that these are suitable for anyone else!
 

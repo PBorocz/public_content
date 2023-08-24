@@ -1,5 +1,5 @@
-# Micro
+# Projects
 
-## [The "Knowledge" Project](knowledge.md)
+## [The "Meta-Knowledge" Project](knowledge.md)
 
-The amount of "knowledge" in the world continues to expand near-exponentially. However, little discussion exists on the ability to understand knowledge at the "meta" level.
+The amount of _knowledge_ in the world continues to expand near-exponentially. However, little discussion exists on the ability to understand knowledge at the "meta" level.

@@ -3,9 +3,7 @@ hide:
   - footer
 ---
 
-# Welcome To 'Flirting With Neutrality'
-
-Content is chunked into the following categories:
+# Welcome
 
 | Category                                | Description                                                                                                                                       |
 |-----------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -20,3 +18,5 @@ Content is chunked into the following categories:
 ### [Long Term Investing (Risks, Buckets and Assets)](posts/macro/investing.md)
 
 ### [My Python Environment](posts/tech/python.md)
+
+### [My Emacs Configuration](posts/tech/emacs.md)
