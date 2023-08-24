@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Paprika
+- Font Author: Copyright 2012 The Paprika Project Authors (https://github.com/etunni/paprika)
+- Font Source: http://fonts.gstatic.com/s/paprika/v21/8QIJdijZitv49rDfuIgOq7jkAOw.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))

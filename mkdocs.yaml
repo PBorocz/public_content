@@ -1,0 +1,154 @@
+docs_dir: docs
+site_author: Péter Böröcz
+site_description: Blog and reference site for Péter Böröcz
+site_dir: deploy
+site_name: Flirting with Neutrality
+site_url: https://peterborocz.blog
+repo_url: https://github.com/PBorocz/public
+repo_name: 'public'
+remote_branch: main
+
+nav:
+  - Home: 'README.md'
+  - Posts:
+    - Nano: 'posts/nano/index.md'
+    - Micro: 'posts/micro/index.md'
+    - Macro: 'posts/macro/index.md'
+    - Projects: 'posts/projects/index.md'
+    - Tech: 'posts/tech/index.md'
+  - Tags: 'misc/tags.md'
+  - About This Site: 'misc/about.md'
+
+not_in_nav: |
+  /misc/cv.md
+  /posts/*/*.md
+
+exclude_docs: |
+  .gitignore
+
+theme:
+  name: material
+
+  icon:
+    repo: fontawesome/brands/github
+    logo: material/devices
+
+  custom_dir: theme_overrides
+
+  features:
+    - announce.dismiss
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    - content.tooltips
+    - header.autohide
+    - navigation.expand
+    - navigation.footer
+    - navigation.indexes
+    - navigation.prune
+    - navigation.sections
+    - navigation.tabs
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+
+  locale: en
+
+  favicon: assets/images/favicon/favicon.ico
+
+  font:
+    text: Roboto
+    code: Source Code Pro
+
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+  highlightjs: true
+  hljs_style: github
+  hljs_languages:
+    - yaml
+    - python
+    - toml
+    - shell
+
+  plugins:
+    - search
+
+    - social
+
+    - tags:
+        tags_file: 'misc/tags.md'
+
+    - git-revision-date-localized:
+        enable_creation_date: true
+        fallback_to_build_date: true
+        type: date
+
+  markdown_extensions:
+    - smarty
+
+    - tables
+
+    - def_list
+
+    - footnotes
+
+    - pymdownx.inlinehilite
+
+    - pymdownx.snippets
+
+    - pymdownx.superfences
+
+    - pymdownx.tasklist:
+      custom_checkbox: true
+
+    - pymdownx.emoji:
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:materialx.emoji.twemoji
+
+    - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+
+validation:
+  omitted_files: warn
+  absolute_links: warn
+  unrecognized_links: warn
+
+extra:
+  annotate:
+    json: [.s2]
+
+  social:
+
+    - icon: fontawesome/brands/github
+      link: https://github.com/PBorocz
+
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/pborocz
+
+    - icon: fontawesome/brands/threads
+      link: https://threads.net/@pgborocz
+
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/@BoroczPeter
+
+    - icon: fontawesome/brands/python
+      link: https://pypi.org/user/MadHun/
