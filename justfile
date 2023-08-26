@@ -1,8 +1,8 @@
 set ignore-comments
 set export
 
-DEPLOY           := justfile_directory() + "/deploy"
-CONTENT          := justfile_directory() + "/docs"
+DEPLOY           := justfile_directory() + "__deploy__"
+CONTENT          := justfile_directory() + "/content"
 PYTHON_REFERENCE := "/Users/peter/Repository/00-09 System/01 Org/reference/"
 COMMIT_TAG       := `date "+%Y-%m-%dT%H:%M:%S"`
 

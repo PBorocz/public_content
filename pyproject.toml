@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "blog_mkdocs"
+version = "0.1.0"
+description = ""
+authors = ["Peter Borocz <680893+PBorocz@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+mkdocs = "^1.5.2"
+mkdocs-material = "^9.2.4"
+pillow = "^10.0.0"
+cairosvg = "^2.7.1"
+pygments = "^2.16.1"
+mkdocs-git-revision-date-localized-plugin = "^1.2.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

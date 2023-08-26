@@ -1,7 +1,7 @@
 ################################################################################
 # Base MkDocs Configuration
 ################################################################################
-docs_dir: docs
+docs_dir: content
 site_author: Péter Böröcz
 site_description: Blog and reference site for Péter Böröcz
 site_dir: deploy
