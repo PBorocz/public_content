@@ -20,9 +20,9 @@ At 25 to 30 years old, you're probably starting to think about "putting" money a
 
 At this point, in some sense, you're already implementing a "bucket" strategy implicitly. Your cash account (eg. checking) serves as your most immediate, readily available cash for monthly expenses. The funds you're saving away in the second category are (or at least should be) in something that makes a bit of interest but may be a "transfer" away from daily usage (eg. a savings account, a money-market account at a brokerage etc.). Finally, any funds you're planning on putting away for retirement are a new third category, definitely not something you'll access (excepting significant emergency where the penalties are justified).
 
-Thus, we can think about these categories along two axes: 
+Thus, we can think about these categories along two axes:
 
-* First, how available/liquid are the funds when you expect to need them? (ie. your checking account is supremely liquid for use on a weekly/monthly basis relative to a 3-month CD where your money is locked away for, well.../3/ months!) 
+* First, how available/liquid are the funds when you expect to need them? (ie. your checking account is supremely liquid for use on a weekly/monthly basis relative to a 3-month CD where your money is locked away for, well.../3/ months!)
 
 * Then, when are you planning to need them? (eg. a car purchase in 18 months?, home down-payment in 36 months? etc.)
 
@@ -34,11 +34,11 @@ Now, an interesting thing happens once you start getting close to considering ac
 
 Why not?
 
-- You won't have any more "standard" job-income! Thus, the years (decades) of expecting $X per month direct deposited to your checking account are no more! I know this sounds rather obvious but I can say from experience that the first few months/quarters of this can be extremely unnerving.
+* You won't have any more "standard" job-income! Thus, the years (decades) of expecting $X per month direct deposited to your checking account are no more! I know this sounds rather obvious but I can say from experience that the first few months/quarters of this can be extremely unnerving.
 
-- Thus, since you'll have to start relying on that single chunk of money you've squirreled away for decades, it's not enough to simply "invest and forget" for decades, you'll need another way of thinking about those funds. That's what the bucket model/concept can help with.
+* Thus, since you'll have to start relying on that single chunk of money you've squirreled away for decades, it's not enough to simply "invest and forget" for decades, you'll need another way of thinking about those funds. That's what the bucket model/concept can help with.
 
-## "Older You" Needs Buckets!
+## "Older You" Needs Buckets
 
 Of the many attributes of the formal Bucket system (formal and capitalised now!) is that in some ways, it *is* a mirror of the way you had to categorise money in your younger years, ie. we'll still categorise money by liquidity and planning horizon but with one critical difference -> your income is going to **come** from your retirement funds instead of an outside source (ie. your old job(s)).
 
@@ -52,9 +52,9 @@ Most similar to your younger-self, Bucket 1 represent all your most liquid funds
 
 Bucket 2 is the newest part of the retirement "mindset", it's purpose is to generate enough income on a monthly basis that you can replenish Bucket 1 as necessary. In some ways, you can consider this the replacement for your former employment, except that income thrown "off" assets in Bucket 2 become your source of monthly/annual living expenses. So what "assets" does this entail? Essentially anything that throws of income and is of reasonably low volatility (we'll read more about volatility below). Examples include (but are not limited to):
 
-- Money market accounts
-- Bond funds (part. those that aim to maximise interest while staying in reasonably high-quality bonds).
-- High dividend paying stocks
+* Money market accounts
+* Bond funds (part. those that aim to maximise interest while staying in reasonably high-quality bonds).
+* High dividend paying stocks
 
 Your goal here is to create as large a Bucket 2 balance as necessary to fund your planned Bucket 1 expenses. Depending on how much you've saved over the decades, Bucket 2 may represent your entire retirement savings.
 
@@ -64,15 +64,15 @@ When Social Security was enacted 87 years ago, the average life expectancy in th
 
 ### Bucket 3
 
-Bucket 3 is the closest analogue to what a new retiree previously considered their "retirement" account(s) (401K's, IRA's, Roth's, etc.). It's meant for the **long-term** and thus, can incur a significantly larger amount of volatility with the promise of larger return than that could be expected from the income-producing assets of Bucket 2. 
+Bucket 3 is the closest analogue to what a new retiree previously considered their "retirement" account(s) (401K's, IRA's, Roth's, etc.). It's meant for the **long-term** and thus, can incur a significantly larger amount of volatility with the promise of larger return than that could be expected from the income-producing assets of Bucket 2.
 
 What would go into Bucket 3? In short, **stocks**. Over almost every period over the last century, analyses have shown that a well-diversified group of high-quality growth stocks will out-perform income-producing (ie. savings/ CD / bond) assets. Thus, unless you have a reasonably short life-expectancy, or even if your Bucket 2 is not sufficient to replenish Bucket 1, you *should* set at least a little aside for long-term appreciation in Bucket 3. Now, here's where wisdom has changed completely over the last decade...time for another historical side-trip.
 
 The "classic" retirement planning model of late last century (70's through the 90's) was "straightforward": invest as long and as aggressively as you can in stocks (long-term gains) while you're working and then "convert" to bonds as soon as you retire to provide you income on which to live. This model is still reasonably prevalent in many people's minds but suffers from two critical issues:
 
-- The first was mentioned above...we're living longer! If you retired in (say) 1985 at age 65, you were born in 1920 and thus had a average life expectancy of 53 years...individuals just *making* it to 65 were to be congratulated! (1920 was a particular bad year to be born from a life expectancy perspective ;-()
+* The first was mentioned above...we're living longer! If you retired in (say) 1985 at age 65, you were born in 1920 and thus had a average life expectancy of 53 years...individuals just *making* it to 65 were to be congratulated! (1920 was a particular bad year to be born from a life expectancy perspective ;-()
 
-- How *do* you "convert" from stocks to bonds? Your income goes from something to essentially nothing (Social Security excepted) so the classic model was simply sell your stocks and buy bonds/bond funds. However, what if you happened to retire in the summer of 1982, 2002 or even 2009? ie. years in which the S&P 500 incurred drops of more than 25%...Can you imagine investing for decades, only to have the value of your "retirement" savings drop by more than a *quarter* within a *single* year?
+* How *do* you "convert" from stocks to bonds? Your income goes from something to essentially nothing (Social Security excepted) so the classic model was simply sell your stocks and buy bonds/bond funds. However, what if you happened to retire in the summer of 1982, 2002 or even 2009? ie. years in which the S&P 500 incurred drops of more than 25%...Can you imagine investing for decades, only to have the value of your "retirement" savings drop by more than a *quarter* within a *single* year?
 
 These two factors have caused a major rethink of financial planning professionals, specifically to start "migrating" out of stocks years earlier before you retire (not a problem) *and* keep stocks a bit longer after you retire (Bucket 3!). While the classic model has it's simplicity, there is no similar clear model today..the closest I know of is the Bucket model (which I argue is a meta-investing or financial management model!).
 
@@ -95,11 +95,11 @@ Bucket | Purpose | Investing Time Frame | Planned Volatility | Availability
 
 To read more about Buckets (their definition and sample portfolios), I recommend going directly to the source:
 
-- [The Bucket Approach to Building a Retirement Portfolio](https://www.morningstar.com/portfolios/bucket-approach-building-retirement-portfolio)
+* [The Bucket Approach to Building a Retirement Portfolio](https://www.morningstar.com/portfolios/bucket-approach-building-retirement-portfolio)
 
-- [Our Best Investment Portfolio Examples for Savers and Retirees](https://www.morningstar.com/model-portfolios/retirees)
+* [Our Best Investment Portfolio Examples for Savers and Retirees](https://www.morningstar.com/model-portfolios/retirees)
 
-## - Intermission - 
+## - Intermission -
 
 At this point, we'll switch from how to conceptually think about retirement money (in the most general sense over your lifetime) to the actual logistics of *what* to invest in (and *where*), helping you understand a different way of thinking about "risk" as well as some insights into the current state of the financial services industry. Good time for a break.
 
@@ -113,15 +113,15 @@ Simply put, if the price of an asset goes down (say 10%) when all other assets o
 
 This definition has become absolutely, completely ingrained in modern finance and has thus trickled down to **personal** finance as well. However, I completely reject the notion that this is an appropriate definition of risk for individuals!!
 
-### Alternative?
+### Alternative
 
 Based on my early experience in Decision Analysis (yes, 30+ years ago but the concepts are evergreen), I define risk as `the probability that you will (or won't) get the outcome you want at the time you want it`. That sounds rather simplistic and in some ways it is. However, when we apply this to personal investing (particular vis-a-vis retirement funding) it's a fundamentally different perspective than just thinking about how volatile the price of an asset is.
 
 Let's do a thought experiment. You're 25 years old and want to start investing your IRA/401k for your retirement in 40 years. You can pick between two assets to invest in (an asset being anything you can purchase that you *hope* goes up in value):
 
-- Asset 1 is expected to return about 5% per year on a long-term average and will only change in price at most 30% per year, ie. the maximum it might go *up* or *down* in a volatile year is 30%.
+* Asset 1 is expected to return about 5% per year on a long-term average and will only change in price at most 30% per year, ie. the maximum it might go *up* or *down* in a volatile year is 30%.
 
-- Asset 2 is expected to return about 10% per year on a long-term average but is might go up or down by 50% in *any given year*.
+* Asset 2 is expected to return about 10% per year on a long-term average but is might go up or down by 50% in *any given year*.
 
 In modern finance, Asset 2 is considered significantly more "risky" than Asset 1 (and thus, will have all the various warnings and signatures required to "make sure you know what you're getting into")
 
@@ -129,17 +129,17 @@ However, what's critical here is to decide the following: What really is our goa
 
 I contend that our long-term savings pile should be thought of like an old-school **cookie-jar**; the type we used to stash money into for a rainy-day (except our rainy day is 40 years on!). Here are some "assumptions" about old-school cookie-jars (well, maybe from the Ozzie & Harriet days but stick with me...):
 
-- The money in the cookie-jar was used on behalf of a particular purchase at some (rough) time in the future.
+* The money in the cookie-jar was used on behalf of a particular purchase at some (rough) time in the future.
 
-- The cookie jar was *opaque*. Thus, on any given day, whoever is managing that cookie jar will NOT be opening it just to make sure everything's still there.
+* The cookie jar was *opaque*. Thus, on any given day, whoever is managing that cookie jar will NOT be opening it just to make sure everything's still there.
 
-- However, if someone **has** *borrowed* money from the jar, it was assumed that over some reasonable period of time, they'd replace the money, perhaps with a bit of extra for good measure.
+* However, if someone **has** *borrowed* money from the jar, it was assumed that over some reasonable period of time, they'd replace the money, perhaps with a bit of extra for good measure.
 
 Let's make some observations:
 
-- The opaqueness of the jar was fundamental to it's operation...during the period that someone borrowed money from jar, no one else probably knew!
+* The opaqueness of the jar was fundamental to it's operation...during the period that someone borrowed money from jar, no one else probably knew!
 
-- We didn't/don't expect that the cookie-jar will be magically "growing" every time period, it might go down as borrowing occurs, it might not grow as funds are tight or it might get large as (ir)regular deposits are made!
+* We didn't/don't expect that the cookie-jar will be magically "growing" every time period, it might go down as borrowing occurs, it might not grow as funds are tight or it might get large as (ir)regular deposits are made!
 
 So, what are the analogues to retirement investing from the cookie-jar analogy?
 
@@ -151,10 +151,9 @@ Let's look at this from the context of Assets 1 and 2 from above. If we invest i
 
 So what makes this possible?
 
-- Time-frame...note the comment above re. "over the 40 year time span". It's this perspective that places the individual investor in a completely different & unique position from that of investment and/or money managers whose performance is evaluated every quarter! Unless your significant other threatens to stop using your own money management services every few years, you have a completely different time horizon than those who'd manage your money for you. Put another way, *every* investment/money manager can be fired due to bad performance...thus, their investing horizon is **by definition** shorter than ours. This distinction is the only advantage/weapon individuals can bring to the investing war-zone (and we need all the help we can get ;-).
+* Time-frame...note the comment above re. "over the 40 year time span". It's this perspective that places the individual investor in a completely different & unique position from that of investment and/or money managers whose performance is evaluated every quarter! Unless your significant other threatens to stop using your own money management services every few years, you have a completely different time horizon than those who'd manage your money for you. Put another way, *every* investment/money manager can be fired due to bad performance...thus, their investing horizon is **by definition** shorter than ours. This distinction is the only advantage/weapon individuals can bring to the investing war-zone (and we need all the help we can get ;-).
 
-- Statistics is fundamental to making this possible...unless you've completely messed up analysing the expected return & volatility of an asset, the statistics of long-term return vv short-term volatility will always work out in your favor.
-
+* Statistics is fundamental to making this possible...unless you've completely messed up analysing the expected return & volatility of an asset, the statistics of long-term return vv short-term volatility will always work out in your favor.
 
 ### Aside: Always Consider Who & How You are Paying
 
@@ -165,7 +164,6 @@ Take hedge funds for example, some of the richest people in the country today be
 Long-winded way of saying that virtually every party you deal with in the space is trying to make money from you...while the obvious take-away is minimise said payments, you first have to understand **how** those payments are made/structured! We'll consider these below when we discuss various types of services and investable assets.
 
 It's critical to keep this understand this in mind as we discuss what and how to populate your buckets.
-
 
 ### Asset(s)
 
@@ -181,9 +179,9 @@ To my mind, this approach is explicitly contradictory to the cookie-jar perspect
 
 So, instead of doing it yourself, you can *pay* someone to manage one or many set of stocks on your behalf. Now we get into the domain of money managers, there are several choices here that I'll group into two general buckets and mention (for fun) a third, probably unusable option.
 
-- Collective Investment Vehicles, eg. Mutual Funds, ETF's etc.
-- Separately Managed Investment Accounts, eg. bespoke money managers.
-- "Hedge" Funds 
+* Collective Investment Vehicles, eg. Mutual Funds, ETF's etc.
+* Separately Managed Investment Accounts, eg. bespoke money managers.
+* "Hedge" Funds
 
 ### Collective Investment Vehicles
 
@@ -195,9 +193,9 @@ Not only did mutual funds open up investing "to the masses", they represented th
 
 So, mutual funds sound great relative to managing your own portfolio, what's the catch?
 
-- You *are* paying for their service (99% of mutual fund companies are for-profit entities and have made some billionaires on the backs of you and I over the years!). How much are we talking? Most mutual funds today charge you somewhere around 0.5% to 1.5% of your assets *every* year to manage your money. On absolute terms, this doesn't sound like much (on a $50,000 nest egg, we're talking about $250 to $750 annually). However, there are two critical factors at play here: first, this is every year, ie. whether or not they've made you money (or more accurately done at least as well as the general market) and second, the magic of compounding means that every dollar that isn't part of the compounding cycle plays a massive role in total size of your nest egg decades down the line. I won't go into the math of why this is so (a simple [calculator](https://www.nerdwallet.com/article/investing/mutual-fund-calculator) that illustrates it) but will only say that **every single penny that decide to invest should take part in said investment plan!**...ie. if there's any place to be a cheap-skate, this is it!!
+* You *are* paying for their service (99% of mutual fund companies are for-profit entities and have made some billionaires on the backs of you and I over the years!). How much are we talking? Most mutual funds today charge you somewhere around 0.5% to 1.5% of your assets *every* year to manage your money. On absolute terms, this doesn't sound like much (on a $50,000 nest egg, we're talking about $250 to $750 annually). However, there are two critical factors at play here: first, this is every year, ie. whether or not they've made you money (or more accurately done at least as well as the general market) and second, the magic of compounding means that every dollar that isn't part of the compounding cycle plays a massive role in total size of your nest egg decades down the line. I won't go into the math of why this is so (a simple [calculator](https://www.nerdwallet.com/article/investing/mutual-fund-calculator) that illustrates it) but will only say that **every single penny that decide to invest should take part in said investment plan!**...ie. if there's any place to be a cheap-skate, this is it!!
 
-- "The [Plethora](https://www.youtube.com/watch?v=P8ROhP_3-Qk) Problem"....Since mutual funds get paid irrespective of how well they perform, the mutual fund game isn't one of returns but much more akin to industries that can't really differentiate their products physically (bottled water anyone?), ie. it's all marketing. To say there are a "plethora" of mutual funds is an understatement...the combinatorics of how many ways you can select (say 30) stocks from a universe of roughly 4000+ "real" stocks (ie, that trade on an exchange) is 3 x 10^38^. As of this writing, there are over 7,000 individual mutual funds available to purchase in the US, note that this is more than the number of actual underlying stocks! Thus, you want a mutual fund that only invests in medium-size companies whose headquarters are in the mid-west, specialises in manufacturing nuts and bolts and whose company name starts in the early part of the alphabet?....we've got a fund for that!! (well, the company name part is only a bit of a stretch, the rest is perfectly logical in today's market).
+* "The [Plethora](https://www.youtube.com/watch?v=P8ROhP_3-Qk) Problem"....Since mutual funds get paid irrespective of how well they perform, the mutual fund game isn't one of returns but much more akin to industries that can't really differentiate their products physically (bottled water anyone?), ie. it's all marketing. To say there are a "plethora" of mutual funds is an understatement...the combinatorics of how many ways you can select (say 30) stocks from a universe of roughly 4000+ "real" stocks (ie, that trade on an exchange) is 3 x 10^38^. As of this writing, there are over 7,000 individual mutual funds available to purchase in the US, note that this is more than the number of actual underlying stocks! Thus, you want a mutual fund that only invests in medium-size companies whose headquarters are in the mid-west, specialises in manufacturing nuts and bolts and whose company name starts in the early part of the alphabet?....we've got a fund for that!! (well, the company name part is only a bit of a stretch, the rest is perfectly logical in today's market).
 
 I'll address the actual decision of mutual fund selection below (preview, it's not as hard as it seems).
 
@@ -233,7 +231,6 @@ Usually set at 20%, performance fees are the real reason high-level individuals 
 
 ### TO DO
 
-- [ ] Asset Allocation, ie. how do you think about a "mix" of assets in a bucket?
-- [ ] What's the difference between ETF's and Mutual Funds?
-- [ ] Role of Vanguard, particularly vis-a-vis TIAA-CREF.
-
+* [ ] Asset Allocation, ie. how do you think about a "mix" of assets in a bucket?
+* [ ] What's the difference between ETF's and Mutual Funds?
+* [ ] Role of Vanguard, particularly vis-a-vis TIAA-CREF.

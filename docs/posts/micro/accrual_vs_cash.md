@@ -15,7 +15,7 @@ While not usually used on behalf of government spending, distinguishing between 
 
 From this, we can distinguish several salient points:
 
-### Legislative Spending is an *Accrual* Basis Concept
+## Legislative Spending is an *Accrual* Basis Concept
 
 Legislation that stipulates spending should be thought of on an *accrual* basis, i.e. while the intent of the legislative branch may be to spend funds for a specific program, there are several issues that may keep that spending from actually occurring. For example, programs may not ramp up as quickly as planned, future legislation might pull the spending back etc.
 
@@ -23,7 +23,7 @@ For example, as of this moment 2020 Relief Act stipulated the availability of $2
 
 Just because a spending bill is enacted doesn't imply directly that the cash necessary for it will actually be "spent". In some ways, legislative spending is like an option, providing the administrative branch an intent and *right or permission* to spend but is not able to explicitly force it to do so.
 
-### Treasury Operations are a *Cash* Basis Concept
+## Treasury Operations are a *Cash* Basis Concept
 
 When we speak of deficit spending, we simply mean that the cash required for government spending is more than that available from tax receipts or existing cash reserves. Thus, the Treasury must borrow money from the private sector by selling US Government debt obligations (bills, notes and bonds) to raise the requisite cash.
 
@@ -35,7 +35,7 @@ When the Republican Party criticized the $1.9 trillion 2021 American Rescue Plan
 
 In fact, the Trump administration treasury left the Biden administration a massive pile of cash ($1 trillion[^3]) that will significantly ameliorate the need for the Treasury to add more to the deficit to implement actual spending associated with the American Rescue Plan!
 
-### TL;DR;
+## TL;DR;
 
 Don't imply that additional government spending will impact the US deficit as you're *conflating* *accrual*  versus *cash* accounting concepts.
 
@@ -47,4 +47,3 @@ Don't imply that additional government spending will impact the US deficit as yo
 
 [^3]:
     [How Trump’s team amassed a $1 trillion war chest for Biden to deploy](https://www.politico.com/news/2021/03/14/covid-relief-package-federal-debt-475622 "How Trump’s team amassed a $1 trillion war chest for Biden to deploy")
-
