@@ -4,8 +4,8 @@ site_description: Blog and reference site for Péter Böröcz
 site_dir: deploy
 site_name: Flirting with Neutrality
 site_url: https://peterborocz.blog
-repo_url: https://github.com/PBorocz/public
-repo_name: 'public'
+repo_url: https://github.com/PBorocz/public_content
+repo_name: 'public_content'
 remote_branch: main
 
 nav:
@@ -44,6 +44,45 @@ not_in_nav: |
 exclude_docs: |
   .gitignore
 
+markdown_extensions:
+  - footnotes
+  - attr_list
+  - md_in_html
+  - pymdownx.superfences
+
+validation:
+  omitted_files: warn
+  absolute_links: warn
+  unrecognized_links: warn
+
+plugins:
+  - search
+  - social
+  - tags:
+      tags_file: 'misc/tags.md'
+  - git-revision-date-localized:
+      enable_creation_date: false
+      fallback_to_build_date: true
+      type: date
+
+extra:
+  annotate:
+    json: [.s2]
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/PBorocz
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/pborocz
+    - icon: fontawesome/brands/threads
+      link: https://threads.net/@pgborocz
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/@BoroczPeter
+    - icon: fontawesome/brands/python
+      link: https://pypi.org/user/MadHun/
+
+################################################################################
+# Configurationfor Material for MkDocs Theme
+################################################################################
 theme:
   name: material
 
@@ -54,11 +93,10 @@ theme:
   custom_dir: theme_overrides
 
   features:
-    - announce.dismiss
-    - content.action.edit
-    - content.action.view
     - content.code.annotate
     - content.code.copy
+    - announce.dismiss
+    - content.action.view
     - content.tooltips
     - header.autohide
     - navigation.expand
@@ -79,85 +117,36 @@ theme:
 
   favicon: assets/images/favicon/favicon.ico
 
-  font:
-    text: Roboto
-    code: Source Code Pro
+  font: false # Gives us OS System default font.
 
   palette:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
-      primary: indigo
+      primary: "blue grey"
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
 
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
+      primary: "blue grey"
       scheme: slate
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
 
-  highlightjs: true
-  hljs_style: github
-  hljs_languages:
-    - yaml
-    - python
-    - toml
-    - shell
-
   markdown_extensions:
+    - attr_list
+    - def_list
+    - pymdownx.emoji:
+        emoji_index:     !!python/name:materialx.emoji.twemoji
+        emoji_generator: !!python/name:materialx.emoji.to_svg
     - smarty
     - tables
-    - def_list
-    - pymdownx.inlinehilite
-    - pymdownx.snippets
-    - pymdownx.superfences
-    - pymdownx.tasklist:
-      custom_checkbox: true
-    - pymdownx.emoji:
-      emoji_generator: !!python/name:materialx.emoji.to_svg
-      emoji_index: !!python/name:materialx.emoji.twemoji
     - pymdownx.highlight:
-      anchor_linenums: true
-      line_spans: __span
-      pygments_lang_class: true
-
-markdown_extensions:
-    - footnotes
-
-validation:
-  omitted_files: warn
-  absolute_links: warn
-  unrecognized_links: warn
-
-plugins:
-  - search
-  - social
-  - tags:
-      tags_file: 'misc/tags.md'
-  - git-revision-date-localized:
-      enable_creation_date: false
-      fallback_to_build_date: true
-      type: date
-
-extra:
-  annotate:
-    json: [.s2]
-
-  social:
-
-    - icon: fontawesome/brands/github
-      link: https://github.com/PBorocz
-
-    - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/in/pborocz
-
-    - icon: fontawesome/brands/threads
-      link: https://threads.net/@pgborocz
-
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/@BoroczPeter
-
-    - icon: fontawesome/brands/python
-      link: https://pypi.org/user/MadHun/
+        use_pygments: true
+        pygments_lang_class: true
+        anchor_linenums: true
+        line_spans: __span
+    - pymdownx.tasklist:
+        custom_checkbox: true

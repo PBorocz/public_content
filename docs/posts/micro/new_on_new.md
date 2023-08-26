@@ -24,9 +24,9 @@ Let's look at the examples above in more detail:
 
   3. Similarly, a new project manager should be assigned to low-risk and/or small projects initially (company's project management standards, policies and procedures vary too much for an external individual to immediately on-board into a situation requiring them to hit-the-ground running).
 
-## We No Choice But To Do New on New...
+## When You Have No Choice But To Do New on New
 
-In cases where you *really* can't get out of it, there are various mitigation strategies possible:
+In cases where you *really* can't get out of it, there are mitigation strategies possible based on the scenario.
 
 - New technologies should be learned, vetted and tested as early as possible in a project/initiative. This should include sample implementations (including deployment to as semi-production environments to evaluate deployment issues).
 
