@@ -4,7 +4,7 @@
 docs_dir: content
 site_author: Péter Böröcz
 site_description: Blog and reference site for Péter Böröcz
-site_dir: deploy
+site_dir: __deploy__
 site_name: Flirting with Neutrality
 site_url: https://peterborocz.blog
 repo_url: https://github.com/PBorocz/public_content
