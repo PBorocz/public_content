@@ -27,12 +27,10 @@ build:
 
 # Deploy the current version of the site.
 deploy:
-    #!/usr/bin/env fish
-    echo "Committing and pushing current build to github..."
-    echo "{{COMMIT_TAG}}"                              > ../git.log
-    cd "{{DEPLOY}}" && git add --all .                >> ../git.log 2>&1
-    cd "{{DEPLOY}}" && git commit -m "{{COMMIT_TAG}}" >> ../git.log 2>&1
-    cd "{{DEPLOY}}" && git push -u origin main        >> ../git.log 2>&1
+    @echo "Committing and pushing current build to github > {{COMMIT_TAG}}"
+    @cd "{{DEPLOY}}" && git add --all .
+    @cd "{{DEPLOY}}" && git commit -m "{{COMMIT_TAG}}"
+    @cd "{{DEPLOY}}" && git push -u origin main
 
 # Run a local server to display pages (and update dynamically).
 dev_run:
