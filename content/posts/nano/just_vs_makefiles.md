@@ -12,6 +12,8 @@ The [Just](https://github.com/casey/just) package took less than 10 minutes to u
 
 **TL;DR;** -> Why has it taken me so long to find this! If you don't need to worry about _dependencies_, unreservedly recommended.
 
+---
+
 ## Sample `justfile`
 
 Here is the automation file that I used to build a _previous_ implementation of my site (specifically, with [Hugo](https://gohugo.io "Hugo")):
@@ -49,23 +51,21 @@ server:
     @cd {{CONTENT}} && hugo server --buildDrafts --disableFastRender # (8)
 ```
 
-1. You can have local variables to represent common  strings within the `justfile` (I treat them like shell variables). Similarly, there are a set of `just` specific methods, here, I'm getting the directory containing the `justfile` itself.
+1. :man_raising_hand: You can have local variables to represent common  strings within the `justfile` (I treat them like shell variables). Similarly, there are a set of `just` specific methods, here, I'm getting the directory containing the `justfile` itself.
 
-2. A comment above a target will be the contents of the respective "help" command (see sample execution below).
+2. :man_raising_hand: A comment above a target will be the contents of the respective "help" command (see sample execution below).
 
-3. The `default` target will be executed when no target is specified on the invocation of `just`. In this case, we simply list the commands available in this `justfile`.
+3. :man_raising_hand: The `default` target will be executed when no target is specified on the invocation of `just`. In this case, we simply list the commands available in this `justfile`.
 
-4. To execute other targets, simply list them! In this case, a `deploy` action is actually composed of a `build` followed by a `push` target.
+4. :man_raising_hand: To execute other targets, simply list them! In this case, a `deploy` action is actually composed of a `build` followed by a `push` target.
 
-5. The `@` symbol doesn't display the text of the command executed.
+5. :man_raising_hand: The `@` symbol doesn't display the text of the command executed.
 
-6. Good example of running a command in another directory (there's no state carried from one command-line to the next).
+6. :man_raising_hand: Good example of running a command in another directory (there's no state carried from one command-line to the next).
 
-7. Commands can be run using *any* interpreter! Here, I'm using fish to take advantage of redirecting both `stdout` and `stderr` to the same file.
+7. :man_raising_hand: Commands can be run using *any* interpreter! Here, I'm using fish to take advantage of redirecting both `stdout` and `stderr` to the same file.
 
-8. Commands don't have to "end", here, the hugo server will continue to run until a CTRL-C.
-
----
+8. :man_raising_hand: Commands don't have to "end", here, the hugo server will continue to run until a CTRL-C.
 
 ``` { .yaml .no-copy }
 $ just

@@ -52,6 +52,16 @@ markdown_extensions:
   - attr_list
   - md_in_html
   - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index:     !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight:
+      use_pygments: true
+      pygments_lang_class: true
+      anchor_linenums: true
+      line_spans: __span
+  - pymdownx.tasklist:
+      custom_checkbox: true
 
 validation:
   omitted_files: warn
@@ -141,15 +151,5 @@ theme:
   markdown_extensions:
     - attr_list
     - def_list
-    - pymdownx.emoji:
-        emoji_index:     !!python/name:materialx.emoji.twemoji
-        emoji_generator: !!python/name:materialx.emoji.to_svg
     - smarty
     - tables
-    - pymdownx.highlight:
-        use_pygments: true
-        pygments_lang_class: true
-        anchor_linenums: true
-        line_spans: __span
-    - pymdownx.tasklist:
-        custom_checkbox: true
