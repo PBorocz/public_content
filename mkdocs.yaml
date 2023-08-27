@@ -15,24 +15,24 @@ nav:
   - Home: 'README.md'
 
   - Nano:
-    - 'posts/nano/index.md'
+    # - 'posts/nano/index.md'
     - Just vs Makefiles: 'posts/nano/just_vs_makefiles.md'
 
   - Micro:
-    - 'posts/micro/index.md'
+    # - 'posts/micro/index.md'
     - New on New: 'posts/micro/new_on_new.md'
     - Accrual vs Cash: 'posts/micro/accrual_vs_cash.md'
 
   - Macro:
-    - 'posts/macro/index.md'
+    # - 'posts/macro/index.md'
     - Long Term Investing: 'posts/macro/investing.md'
 
   - Projects:
-    - 'posts/projects/index.md'
+    # - 'posts/projects/index.md'
     - Meta-Knowledge: 'posts/projects/knowledge.md'
 
   - Tech:
-    - 'posts/tech/index.md'
+    # - 'posts/tech/index.md'
     - My Emacs Configuration: 'posts/tech/emacs.md'
     - My Python Environment: 'posts/tech/python.md'
 
@@ -51,7 +51,8 @@ markdown_extensions:
   - footnotes
   - attr_list
   - md_in_html
-  - pymdownx.superfences
+  - pymdownx.critic
+  - pymdownx.details
   - pymdownx.emoji:
       emoji_index:     !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
@@ -60,6 +61,7 @@ markdown_extensions:
       pygments_lang_class: true
       anchor_linenums: true
       line_spans: __span
+  - pymdownx.superfences
   - pymdownx.tasklist:
       custom_checkbox: true
 
@@ -93,6 +95,9 @@ extra:
     - icon: fontawesome/brands/python
       link: https://pypi.org/user/MadHun/
 
+extra_css:
+  - stylesheets/extra.css
+
 ################################################################################
 # Configurationfor Material for MkDocs Theme
 ################################################################################
@@ -109,28 +114,27 @@ theme:
     - content.code.annotate
     - content.code.copy
     - announce.dismiss
-    - content.action.view
     - content.tooltips
     - header.autohide
-    - navigation.expand
-    - navigation.footer
-    - navigation.indexes
-    - navigation.instant
-    - navigation.sections
-    - navigation.tabs
-    - navigation.tabs.sticky
-    - navigation.top
-    - navigation.tracking
+    # - navigation.expand
+    # - navigation.footer
+    # - navigation.indexes
+    # - navigation.instant
+    # - navigation.sections
+    # - navigation.tabs
+    # - navigation.tabs.sticky
+    # - navigation.top
+    # - navigation.tracking
     - search.highlight
     - search.share
     - search.suggest
-    - toc.follow
+    # - toc.follow
 
   locale: en
 
   favicon: assets/images/favicon/favicon.ico
 
-  font: false # Gives us OS System default font.
+  font: false # Use Bunny.net (see extra.css) to keep Google from spying on readers of the site.
 
   palette:
     # Palette toggle for light mode

@@ -1,0 +1,23 @@
+
+@font-face {
+  font-family: "atkinson-hyperlegible";
+  src: "https://fonts.bunny.net/css?family=atkinson-hyperlegible:400";
+}
+
+@font-face {
+  font-family: "source-code-pro";
+  src: "https://fonts.bunny.net/css?family=source-code-pro:400";
+}
+
+:root {
+    --md-text-font: "atkinson-hyperlegible";
+    --md-code-font: "source-code-pro";
+}
+
+.md-typeset h2 {
+    margin: 0em 0 .64em;
+}
+
+.md-typeset h3 {
+    margin: 0em 0 .64em;
+}
