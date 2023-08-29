@@ -5,27 +5,19 @@ hide:
 
 # Posts
 
-## Nano
+[Just vs. Makefiles](posts/nano/just_vs_makefiles.md)
 
-* [Just vs. Makefiles](posts/nano/just_vs_makefiles.md)
+[New on New](posts/micro/new_on_new.md)
 
-## Micro
+[Accrual vs. Cash](posts/micro/accrual_vs_cash.md)
 
-* [New on New](posts/micro/new_on_new.md)
-* [Accrual vs. Cash](posts/micro/accrual_vs_cash.md)
+[(Long Term) Investing, vis a vis Risks, Buckets and Assets](posts/macro/investing.md)
 
-## Macro
+[Project - Meta-Knowledge](posts/projects/knowledge.md)
 
-* [(Long Term) Investing, vis a vis Risks, Buckets and Assets](posts/macro/investing.md)
+[Tech - My Python Environment](posts/tech/python.md)
 
-## Projects
-
-* [Meta-Knowledge](posts/projects/knowledge.md)
-
-## Tech
-
-* [My Python Environment](posts/tech/python.md)
-* [My Emacs Configuration](posts/tech/emacs.md)
+[Tech - My Emacs Configuration](posts/tech/emacs.md)
 
 ---
 

@@ -18,18 +18,28 @@ There are a plethora of packages, libraries and tools to support the Python "pro
 -   I use the single, best tool for the every component (even it that requires more tools!). There's been a recent focus on moving single-use tools to "uber" tools. For example, how many tools now allow you to manage virtualenvs as well?
 -   This usually implies using only the *core* capability of each tool (and thus, stay orthogonal and independent from other tools). For example, while Poetry **can** do virtualenvs, I limit it's use for package management and project builds.
 
-## Tool-Set
+## Meta Tool
 
-My current toolkit is composed of the following tools:
+My toolkit relies on a set of individually installed tools, however, we don't want these tools installed in projects themselves and thus, rely upon the wonderful [pipx](https://pypa.github.io/pipx/) environment to manage them (hence, why I consider [pipx](https://pypa.github.io/pipx/) a "*meta-tool*")
 
--   [pyenv](Https://Github.Com/Pyenv/Pyenv) to manage various versions of python installed on my system.
--   [poetry](Https://Python-Poetry.Org/) to manage project & package management (through pyproject.toml). (see [Python packages with pyproject.toml and nothing else \| Simon Willison’s TILs](https://til.simonwillison.net/python/pyproject))
--   [venv](https://docs.python.org/3/library/venv.html) module to create and manage virtualenvs.
--   [direnv](https://direnv.net/) to manage `PYTHON_PATH` and virtual-env activation/deactivation (with a cool twist for this to happen automagically, see below under `Direnv Configuration`).
--   [ruff](https://github.com/charliermarsh/ruff) to manage almost all source code quality checks (either directly in justfile or pre-commit).
--   [just](https://github.com/casey/just) instead of Makefile arcanity.
+## Tools
 
-## Python Version Confirmation (with pyenv)
+My current toolkit is composed of the following packages:
+
+| Tool                                                | Use                                                                                                                                                                  |
+|-----------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [pyenv](Https://Github.Com/Pyenv/Pyenv)             | Manage various versions of python installed on my system (ie. irrespective of project, just a set of all the python versions currently used across all my projects). |
+| [poetry](Https://Python-Poetry.Org/)                | Manage project & package management, i.e. through `pyproject.toml`.                                                                                                  |
+| [venv](https://docs.python.org/3/library/venv.html) | Create and manage virtualenvs.                                                                                                                                       |
+| [direnv](https://direnv.net/)                       | Manage `PYTHON_PATH` and virtual-env activation/deactivation (with a cool twist for this to happen automagically, see below under `Direnv Configuration`).           |
+| [just](https://github.com/casey/just)               | Capture and execute commonly-used commands instead of Makefile arcanity.                                                                                             |
+| [ruff](https://github.com/charliermarsh/ruff)       | Manage almost all source code quality checks (either directly in justfile or pre-commit).                                                                            |
+
+References:
+
+-   [Python packages with pyproject.toml and nothing else \| Simon Willison’s TILs](https://til.simonwillison.net/python/pyproject)
+
+## Python Version Confirmation
 
 ``` shell
 # Confirm version of python to use
@@ -48,7 +58,9 @@ pyenv versions
 
 ```
 
-## Setup (poetry)
+## Project Setup
+
+This is listed above venv creation as for a virgin project, creating the project layout with `poetry` itself first is slightly more straightforward.
 
 ``` shell
 # change to directory 1 level up from new project area..
@@ -73,23 +85,24 @@ poetry config virtualenvs.create false
 cd <projectname>
 ```
 
-## Virtual Environment Creation (python -m venv)
+## Virtual Environment Creation
 
-Venv precepts I am manic about are:
+Virtual environment precepts I am <u>manic</u> about are:
 
 -   **ALL** virtualenvs are at the **top-level** of the respective project (same level as `.github`).
 -   **ALL** virtualenvs are named `.venv`.
 
 ``` shell
-# create venv (i.e. create a venv right here in the local directory called ".venv")
+# Create venv
+# (i.e. create a venv right here in the local directory called ".venv")
 python -m venv --without-pip .venv
 ```
 
 ## Direnv Configuration
 
-Make venv startups essentially automatic:
+Make venv startups essentially automatic (while also setting `PYTHON_PATH` appropriately!)
 
-Cut/paste to .envrc at project's top level dir:
+➡ Cut/paste to `.envrc` at project's top level directory:
 
 ``` shell
 export PYTHONPATH=`pwd`
@@ -97,39 +110,42 @@ export VIRTUAL_ENV=$PYTHONPATH/.venv
 PATH_add "$VIRTUAL_ENV/bin"
 ```
 
-Followed by:
+➡ Followed by:
 
     % direnv allow
 
-Reference: [Activate Python VirtualEnv Automatically with Direnv](https://erick.navarro.io/blog/activate-python-virtualenv-automatically-with-direnv)
+References:
+
+-   Obviously [direnv](https://direnv.net/) itself.
+-   [Activate Python VirtualEnv Automatically with Direnv](https://erick.navarro.io/blog/activate-python-virtualenv-automatically-with-direnv)
 
 ## Packages
 
 ``` shell
 ###########################################################
-# add packages relevant to all environments (ie. dev *and* production)
+# Add packages relevant to all environments (ie. dev *and* production)
 ###########################################################
 # add those relevant to all environments (ie. dev *and* production), e.g. loguru?
 poetry add ...
 
 ##########################################################
-# add dev-environment-only packages
+# Add development environment only packages
 ##########################################################
 # pre-commit code quality checks
 poetry add pre-commit --group dev
-...
+...etc...
 
 # We don't need to add ruff/ruff-lsp anymore (unless we want to use pre-commit as well)
-# as we have emacs 29+ using ruff-lsp/eglot from a common, pipx installation.
+# as we have emacs 29+ using ruff-lsp/eglot from a common, pipx-based installation.
 ```
 
 ## Git
 
 ``` shell
-# setup git repo (needed for pre-commit's git hooks)
+# Setup git repo (needed for pre-commit's git hooks)
 git init
 
-# ...pull a sample .gitignore file from my most recent project (eg. 10.18 as of now)
+# ...Pull a sample .gitignore file from my most recent project (eg. 10.18 as of now)
 ```
 
 An alternate idea for .gitignore (from a reddit comment) is to turn your gitignore into a "gitinclude" (the filename is the same, the usage somewhat different), something like the following:
@@ -154,6 +170,8 @@ __pycache__
 ## `pyproject.toml` Configuration
 
 ### Ruff
+
+Obviously, in pyproject.toml, place the following stanzas:
 
 ``` toml
 [tool.ruff]
@@ -222,8 +240,8 @@ include = '\.pyi?$'
 fast = true
 exclude = '''
 (
-      \.eggs         # exclude a few common directories in the
-    | \.git          # root of the project
+      \.eggs         # exclude a few common directories in the project root.
+    | \.git
     | \.mypy_cache
     | \.pytest_cache
     | \.tox
@@ -252,7 +270,7 @@ From a reddit thread:
 -   *I've also found that ssort is useful in larger codebases. My workflow is: black -\> isort -\> ssort -\> ruff -\> mypy -\> pytest*
 -   *If all of those pass, then the pre-commit hooks allow for a commit and pull-request.*
 
-Good article on setting up pre-commit -\> [Improve your Django Code with pre-commit](https://builtwithdjango.com/blog/improve-your-code-with-pre-commit).
+Good article on setting up pre-commit -\> [Improve your Django Code with pre-commit](https://builtwithdjango.com/blog/improve-your-code-with-pre-commit)
 
 ``` shell
 pre-commit install

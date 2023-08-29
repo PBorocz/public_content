@@ -26,14 +26,14 @@ server:
 ################################################################################
 # Preprocess org to markdown (our python environment file in particular)
 preprocess:
-    python org-md_preprocessor.py     --input "{{PYTHON_REFERENCE}}/python-environment.org" --output "/tmp/python-environment.org"
+    python org-md_preprocessor.py    --input "{{PYTHON_REFERENCE}}/python-environment.org" --output "/tmp/python-environment.org"
     pandoc -f org -t gfm --wrap=none --output "/tmp/python-environment.md"                           "/tmp/python-environment.org"
-    python org-md_postprocessor.py    --input "/tmp/python-environment.md"                  --output "{{CONTENT}}/posts/tech/python.md"
+    python org-md_postprocessor.py   --input  "/tmp/python-environment.md"                 --output "{{CONTENT}}/posts/tech/python.md"
 
 # Build our site in preparation for release
 build:
     just preprocess
-    mkdocs --verbose build
+    mkdocs build
 
 # DEPLOY the site (pre-processes and builds as well)
 DEPLOY: preprocess build
