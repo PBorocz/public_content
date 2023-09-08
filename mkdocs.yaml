@@ -16,6 +16,7 @@ nav:
 
   - Nano:
     # - 'posts/nano/index.md'
+    - Risk Aversion and Age: 'posts/nano/risk-aversion-age.md'
     - Just vs Makefiles: 'posts/nano/just_vs_makefiles.md'
 
   - Micro:
