@@ -75,10 +75,10 @@ plugins:
   - social
   - tags:
       tags_file: 'misc/tags.md'
-  - git-revision-date-localized:
-      enable_creation_date: false
-      fallback_to_build_date: true
-      type: date
+  # - git-revision-date-localized:
+  #     enable_creation_date: false
+  #     fallback_to_build_date: true
+  #     type: date
 
 extra:
   annotate:

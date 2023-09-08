@@ -5,6 +5,8 @@ hide:
 
 # Posts
 
+[Risk Aversion and Age](posts/nano/risk-aversion-age.md)
+
 [Just vs. Makefiles](posts/nano/just_vs_makefiles.md)
 
 [New on New](posts/micro/new_on_new.md)
