@@ -3,4 +3,5 @@ __archived__/
 __deploy__/
 __pycache__/
 .cache
+styles/
 git.log
