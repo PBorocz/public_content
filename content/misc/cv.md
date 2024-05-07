@@ -10,11 +10,11 @@ As best as I can piece together, this is my complete work history.
 * Consulting and Development Services:
   * Architect and principal developer of firm’s first commercial product, specifically on behalf of nationwide utility rebate incentive processing (`Python`).
   * Integrated client requirements, data collection and service needs in development and maintenance of public reporting environments for **California Distributed Generation**, **Solar Initiative Thermal Program**, and **Renewable Portfolio Standard** (`Python`, `Redis`, `Django`).
-   * Developed data collection platform for **PG&E’s** Share My Data & performance dashboards for **PG&E’s** Automated Demand Response program (`Python`).
+  * Developed data collection platform for **PG&E’s** Share My Data & performance dashboards for **PG&E’s** Automated Demand Response program (`Python`).
 
 * Corporate Services:
   * Developed firm’s first comprehensive Policy & Procedure documentation for software development and operation.
-   * Managed firm’s first successful SOC-2 Type-1 audit and supported on-going Type 2 audits.
+  * Managed firm’s first successful SOC-2 Type-1 audit and supported on-going Type 2 audits.
   * Designed and deployed firm’s first comprehensive project & corporate risk framework.
   * Managed software engineering teams of various sizes (2-8), all DevOps and Corporate IT.
 
@@ -57,33 +57,33 @@ As best as I can piece together, this is my complete work history.
 * *Technology Manager, Capital Markets*
   * Responsible for global technology management for the Capital Markets business unit of BGI. Unit managed over $30B of equity and fixed income instruments on loan and representing a significant portion of BGI's profits at the time.
   * Position encompassed:
-    * Management, architecture and support of all application development
-    * Strategic technology direction
-    * Project management
-    * Budget, audit and risk management technology across the globally distributed business unit
-      * Coordination with all technology infrastructure groups across other regional business units
+	* Management, architecture and support of all application development
+	* Strategic technology direction
+	* Project management
+	* Budget, audit and risk management technology across the globally distributed business unit
+	  * Coordination with all technology infrastructure groups across other regional business units
   * Primary Projects:
-    * Development a replacement to a global Securities Lending system in Tenfold Corporation's Universal Application Architecture (along with `C`, `Perl`, `Sybase`, Web and TibCo's `Rendezvous`).
-    * Designed and implemented BGI's first company-wide utilisation of XML as part of a project to convert $300B of custodial services from Morgan Stanley Trust Company to Chase Manhattan Bank (`Perl` and `Java`).
-    * Deployed a Cash Trading System to other BGI offices globally using both a standalone/project architecture and a real-time replication architecture using `Sybase' Replication Server`.
+	* Development a replacement to a global Securities Lending system in Tenfold Corporation's Universal Application Architecture (along with `C`, `Perl`, `Sybase`, Web and TibCo's `Rendezvous`).
+	* Designed and implemented BGI's first company-wide utilisation of XML as part of a project to convert $300B of custodial services from Morgan Stanley Trust Company to Chase Manhattan Bank (`Perl` and `Java`).
+	* Deployed a Cash Trading System to other BGI offices globally using both a standalone/project architecture and a real-time replication architecture using `Sybase' Replication Server`.
 
   * *Manager Information Technology*
-    * Managed 12 developers across 5 application development teams, reported to CIO but centered
-      around Capital Markets Business Unit. Developed and managed core technology strategy, i.e. software architecture, project planning, business case development and shepherding and budgeting across:
-      * Securities Lending & Money Market Trading desks
-      * Derivatives Trading
-      * Foreign Exchange Trading
-      * Risk Management
-      * Compliance and Regulatory Reporting
-      * Pioneered use of messaging middleware in development of real-time trading and risk management systems.
+	* Managed 12 developers across 5 application development teams, reported to CIO but centered
+	  around Capital Markets Business Unit. Developed and managed core technology strategy, i.e. software architecture, project planning, business case development and shepherding and budgeting across:
+	  * Securities Lending & Money Market Trading desks
+	  * Derivatives Trading
+	  * Foreign Exchange Trading
+	  * Risk Management
+	  * Compliance and Regulatory Reporting
+	  * Pioneered use of messaging middleware in development of real-time trading and risk management systems.
 
   * *Senior Trading Liason, Equity & Fixed Income Trading*
-    * Responsible for all first-line software and hardware support of fixed-income and equity trading desks.
-    * Managed group of 4 developers responsible for all fixed-income and equity trading desk software.
-    * Primary Projects:
-      * Researched, sold and managed install of the Teknekron (TibCo) Information Bus market data and messaging software platform.
-      * Jointly designed and developed core trading floor software architecture, i.e. application integration, user shell environments, project and change control standards etc. Complete migration from multiple stand-alone PC's per trading a single Sun workstation.
-      * Managed, designed and developed first electronic workflow transfer of trading order from portfolio management to trading environment at BGI (`Perl`, `C`, `Tcl/Tk` on Sun Solaris)
+	* Responsible for all first-line software and hardware support of fixed-income and equity trading desks.
+	* Managed group of 4 developers responsible for all fixed-income and equity trading desk software.
+	* Primary Projects:
+	  * Researched, sold and managed install of the Teknekron (TibCo) Information Bus market data and messaging software platform.
+	  * Jointly designed and developed core trading floor software architecture, i.e. application integration, user shell environments, project and change control standards etc. Complete migration from multiple stand-alone PC's per trading a single Sun workstation.
+	  * Managed, designed and developed first electronic workflow transfer of trading order from portfolio management to trading environment at BGI (`Perl`, `C`, `Tcl/Tk` on Sun Solaris)
 
 ### 1991-1994: Manager, Financial Application Development, **TibCo**, Palo Alto CA
 * Managed developers responsible for all trader workstation software deployed on the Teknekron Information Bus. Responsible for product design, customer interaction, development, testing and production of the Trader Workstation (Sun `SPARCStations`, `X11`, `C`).
