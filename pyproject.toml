@@ -12,6 +12,7 @@ mkdocs-material = "^9.2.4"
 pillow = "^10.3.0"
 cairosvg = "^2.7.1"
 pygments = "^2.16.1"
+urllib3 = "^2.5.0"
 
 [build-system]
 requires = ["poetry-core"]
